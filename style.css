@@ -1,0 +1,130 @@
+.container_full_width{
+    width:100%;
+    display:table;
+    background-color:#f0f0f0;
+  font-family:Tahoma, Geneva, sans-serif;
+  font-size:13px;
+}
+.circle_tab{
+		display:table;
+		width:100%;
+		max-width:768px;
+		margin:100px auto;
+		position:relative;
+		height:460px;
+	}
+	.circle_tab .center_cricle{
+		display:table;
+		width:calc(100% - 200px);
+		background-color:#0077cc;
+		max-width:320px;
+		height:320px;
+		margin:0 auto;
+		border-radius:50%;
+	}
+	.circle_tab .center_cricle .center_content{
+		max-width:220px;
+		width:100%;
+		margin:0 auto;
+		text-align:center;
+		display:table;
+		color:#fff;
+		margin-top:40px;
+	}
+	.circle_tab .center_cricle .center_content h1{
+		margin-bottom:25px;
+		/* line- */
+	}
+	.circle_tab .center_cricle .center_content p{
+		margin:0 auto;
+	}
+	.circle_tab .circle_cri .cricle_bg svg{
+		width:45px;
+		height:45px;
+		margin-top: 12px;
+		transition:0s;
+	}
+	.circle_tab .circle_cri .cricle_bg{
+		width:70px;
+		height:70px;
+		border-radius:50%;
+		background-color:#fff;
+		text-align:center;
+		display:block;
+		transition:0s;
+	}
+	.circle_tab .circle_cri{
+		display:table;
+		position: absolute;
+		transition:0s;
+	}
+	.circle_tab .circle_cri:hover .cricle_bg{
+		width:80px;
+		height:80px;
+		border:2px solid #0077cc;
+	}
+	.circle_tab .circle_cri:hover .cricle_bg svg{
+		width:40px;
+		height:40px;
+		margin-top: 18px;
+	}
+	.circle_tab .circle_cri.circle_cri_1{
+		top: 150px;
+    	left: 130px;
+	}
+	.circle_tab .circle_cri.circle_cri_1:hover{
+		top: 140px;
+		left: 125px;
+	}
+	.circle_tab .circle_cri.circle_cri_2{
+		top: 260px;
+    	left: 175px;
+	}
+	.circle_tab .circle_cri.circle_cri_2:hover{
+		top: 250px;
+		left: 170px;
+	}
+	.circle_tab .circle_cri.circle_cri_3{
+		top: 330px;
+    	left: 280px;
+	}
+	.circle_tab .circle_cri.circle_cri_3:hover{
+		top: 320px;
+		left: 275px;
+	}
+	.circle_tab .circle_cri.circle_cri_4{
+		top: 330px;
+    	left: 420px;
+	}
+	.circle_tab .circle_cri.circle_cri_4:hover{
+		top: 320px;
+		left: 415px;
+	}
+	.circle_tab .circle_cri.circle_cri_5{
+		top: 260px;
+    	left: 520px;
+	}
+	.circle_tab .circle_cri.circle_cri_5:hover{
+		top: 250px;
+		left: 515px;
+	}
+	.circle_tab .circle_cri.circle_cri_6{
+		top: 150px;
+    	left: 565px;
+	}
+	.circle_tab .circle_cri.circle_cri_6:hover{
+		top: 140px;
+		left: 560px;
+	}
+	.circle_tab .circle_cri .cri_text{
+		text-align:center;
+		width:100%;
+		display:table;
+		line-height:12px;
+		font-size:12px;
+		margin-top:2px;
+	}
+	.circle_tab .circle_cri:hover .cri_text{
+		color:#0077cc;
+		font-weight:bold;
+	}
